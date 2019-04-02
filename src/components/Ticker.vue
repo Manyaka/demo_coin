@@ -16,7 +16,7 @@
     },
     data() {
       return {
-        pair: 'btc_usd',
+        pair: 2,
         price: '',
         isLoading: true,
       };

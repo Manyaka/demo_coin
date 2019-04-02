@@ -1,10 +1,10 @@
-// https://yobit.net/api/3/ticker/btc_usd
+// https://jsonplaceholder.typicode.com/todos/1
 
-const HOST = 'https://yobit.net';
+const HOST = 'https://jsonplaceholder.typicode.com';
 
 // eslint-disable-next-line import/prefer-default-export
 export function getTicker(pair) {
-  return fetch(`${HOST}/api/3/ticker/${pair}`)
+  return fetch(`${ HOST }/todos/${ pair }`)
     .then((response) => response.json())
-    .then(({ last }) => last);
+    .then(({ title }) => title);
 }

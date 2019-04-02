@@ -18,6 +18,10 @@ module.exports = {
     // disable rules from base configurations
     indent: ['off', 2],
     'arrow-parens': ['error', 'always'],
+    'comma-dangle': ['error', 'only-multiline'],
+    'spaced-comment': 'off',
+    'prefer-const': 'off',
+    'template-curly-spacing': 'off'
   },
   parserOptions: {
     parser: 'babel-eslint',

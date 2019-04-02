@@ -15,10 +15,11 @@ module.exports = {
 
     // enable additional rules
     // override default options for rules from base configurations
-    // disable rules from base configurations
-    indent: ['off', 2],
     'arrow-parens': ['error', 'always'],
     'comma-dangle': ['error', 'only-multiline'],
+
+    // disable rules from base configurations
+    indent: ['off', 2],
     'spaced-comment': 'off',
     'prefer-const': 'off',
     'template-curly-spacing': 'off'

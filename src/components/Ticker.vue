@@ -7,6 +7,8 @@
 </template>
 
 <script>
+  import { getTicker } from '../api';
+
   export default {
     name: 'Ticker',
     props: {
@@ -14,10 +16,18 @@
     },
     data() {
       return {
-        pair: 'BTC_USD',
+        pair: 'btc_usd',
         price: '',
         isLoading: true,
       };
+    },
+    /*data: () => ({
+       pair: 'BTC_USD',
+       price: '',
+       isLoading: true,
+     }),*/
+    async mounted() {
+      this.price = await getTicker(this.pair);
     },
   };
 </script>

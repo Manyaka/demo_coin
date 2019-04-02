@@ -1,6 +1,7 @@
 <template>
   <div class="app">
-    <Ticker />
+    <Ticker pair="4"/>
+    <Ticker pair="5"/>
   </div>
 </template>
 

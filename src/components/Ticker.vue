@@ -1,7 +1,7 @@
 <template>
   <div class="ticker">
     <h1>{{ pair }}</h1>
-    <h2 v-if="!isLoading">{{ price }}</h2>
+    <h2 v-if="!isLoading">{{ formattedPrice }}</h2>
     <i class="fas fa-spinner fa-spin" v-if="isLoading"></i>
   </div>
 </template>
@@ -12,11 +12,10 @@
   export default {
     name: 'Ticker',
     props: {
-      msg: String,
+      pair: String,
     },
     data() {
       return {
-        pair: 3,
         price: '',
         isLoading: true,
       };
@@ -26,6 +25,11 @@
        price: '',
        isLoading: true,
      }),*/
+    computed: {
+      formattedPrice() {
+        return this.price.toUpperCase();
+      },
+    },
     mounted() {
       let updateRate = async () => {
         this.price = await getTicker(this.pair);

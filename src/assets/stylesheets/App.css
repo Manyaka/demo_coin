@@ -14,3 +14,7 @@ h2 {
   font-size: 26px;
   margin-bottom: 1em;
 }
+
+.app {
+  display: flex;
+}

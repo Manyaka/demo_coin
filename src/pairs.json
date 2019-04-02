@@ -1,1 +1,291 @@
-{"server_time":1554205591,"pairs":{"ltc_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"nmc_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"ppc_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"dash_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"doge_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"cam_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"cann_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"uro_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"opal_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"via_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"sdc_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"start_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"gsx_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"vtc_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"smbr_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"etco_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"xqn_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"gml_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"xpy_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"dgms_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"noo_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"nav_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"nkt_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"eags_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"dgd_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2},"sys_btc":{"decimal_places":8,"min_price":0.00000001,"max_price":10000,"min_amount":0.0001,"min_total":0.0001,"hidden":0,"fee":0.2,"fee_buyer":0.2,"fee_seller":0.2}}}
+{
+  "server_time": 1554205591,
+  "pairs": {
+    "ltc_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "nmc_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "ppc_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "dash_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "doge_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "cam_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "cann_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "uro_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "opal_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "via_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "sdc_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "start_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "gsx_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "vtc_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "smbr_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "etco_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "xqn_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "gml_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "xpy_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "dgms_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "noo_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "nav_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "nkt_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "eags_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "dgd_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    },
+    "sys_btc": {
+      "decimal_places": 8,
+      "min_price": 0.00000001,
+      "max_price": 10000,
+      "min_amount": 0.0001,
+      "min_total": 0.0001,
+      "hidden": 0,
+      "fee": 0.2,
+      "fee_buyer": 0.2,
+      "fee_seller": 0.2
+    }
+  }
+}

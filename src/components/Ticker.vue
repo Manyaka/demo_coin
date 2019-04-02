@@ -36,8 +36,12 @@
         this.isLoading = false;
       };
       updateRate();
-      // setInterval(updateRate, 5000);
+      // this.interval = setInterval(updateRate, 5000);
     },
+    beforeDestroy() {
+      //убирать за собой
+      clearInterval(this.interval);
+    }
   };
 </script>
 

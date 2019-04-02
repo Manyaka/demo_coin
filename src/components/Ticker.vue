@@ -1,8 +1,8 @@
 <template>
   <div class="ticker">
     <h1>{{ pair }}</h1>
-    <h2>{{ price }}</h2>
-    <i class="fas fa-spinner fa-spin"></i>
+    <h2 v-if="!isLoading">{{ price }}</h2>
+    <i class="fas fa-spinner fa-spin" v-if="isLoading"></i>
   </div>
 </template>
 
@@ -28,6 +28,7 @@
      }),*/
     async mounted() {
       this.price = await getTicker(this.pair);
+      this.isLoading = false;
     },
   };
 </script>

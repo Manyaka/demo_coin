@@ -1,0 +1,8 @@
+.ticker {
+  background-color: pink;
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  margin: 1em auto 0;
+  padding: 1em;
+}

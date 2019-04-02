@@ -11,9 +11,7 @@
 
   export default {
     name: 'Ticker',
-    props: {
-      pair: String,
-    },
+    props: ['pair'],
     data() {
       return {
         price: '',
@@ -21,9 +19,9 @@
       };
     },
     /*data: () => ({
-       pair: 'BTC_USD',
-       price: '',
-       isLoading: true,
+     pair: 'BTC_USD',
+     price: '',
+     isLoading: true,
      }),*/
     computed: {
       formattedPrice() {
@@ -41,7 +39,7 @@
     beforeDestroy() {
       //убирать за собой
       clearInterval(this.interval);
-    }
+    },
   };
 </script>
 

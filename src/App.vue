@@ -1,8 +1,9 @@
 <template>
   <div class="app">
-    <List />
-    <Ticker pair="4" />
-    <Ticker pair="5" />
+    <List v-on:mashaitemsupdated="updateList" />
+    <div>
+      <Ticker v-for="ticker in items" v-bind:pair="ticker" v-bind:key="ticker" />
+    </div>
   </div>
 </template>
 
@@ -15,6 +16,18 @@
     components: {
       List,
       Ticker,
+    },
+    data() {
+      return {
+        items: [],
+      };
+    },
+    methods: {
+      //items пришли из компонента
+      updateList(items) {
+        this.items = items;
+        console.log(this.items);
+      },
     },
   };
 </script>

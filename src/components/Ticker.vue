@@ -16,7 +16,7 @@
     },
     data() {
       return {
-        pair: 2,
+        pair: 3,
         price: '',
         isLoading: true,
       };
@@ -26,9 +26,13 @@
        price: '',
        isLoading: true,
      }),*/
-    async mounted() {
-      this.price = await getTicker(this.pair);
-      this.isLoading = false;
+    mounted() {
+      let updateRate = async () => {
+        this.price = await getTicker(this.pair);
+        this.isLoading = false;
+      };
+      updateRate();
+      // setInterval(updateRate, 5000);
     },
   };
 </script>

@@ -2,7 +2,9 @@
   <div class="app">
     <List v-on:mashaitemsupdated="updateList" />
     <div>
-      <Ticker v-for="ticker in items" v-bind:pair="ticker" v-bind:key="ticker" />
+      <Ticker v-for="ticker in items"
+              v-bind:pair="ticker"
+              v-bind:key="ticker" />
     </div>
   </div>
 </template>
@@ -26,10 +28,9 @@
       //items пришли из компонента
       updateList(items) {
         this.items = items;
-        console.log(this.items);
       },
     },
   };
 </script>
 
-<style src="./assets/stylesheets/App.css"></style>
+<style src="./assets/stylesheets/App.css" />

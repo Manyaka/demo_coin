@@ -2,7 +2,7 @@
   <div class="ticker">
     <h1>{{ pair }}</h1>
     <h2 v-if="!isLoading">{{ formattedPrice }}</h2>
-    <i class="fas fa-spinner fa-spin" v-if="isLoading"></i>
+    <i class="fas fa-spinner fa-spin" v-if="isLoading" />
   </div>
 </template>
 
@@ -43,5 +43,4 @@
   };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style src="./Ticker.css"></style>
+<style src="./Ticker.css" />

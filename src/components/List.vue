@@ -52,4 +52,4 @@
   };
 </script>
 
-<style src="./List.css"></style>
+<style src="./List.css" />
